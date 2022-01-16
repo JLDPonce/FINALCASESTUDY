@@ -8,7 +8,7 @@ Compiled Tue 17-Aug-10 12:08 by prod_rel_team
 ROM: ROMMON Emulation Microcode
 ROM: 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
 
-R2 uptime is 1 hour, 34 minutes
+R2 uptime is 7 minutes
 System returned to ROM by unknown reload cause - suspect boot_data[BOOT_COUNT] 0x0, BOOT_COUNT 0, BOOTDATA 19
 System image file is "tftp://255.255.255.255/unknown"
 

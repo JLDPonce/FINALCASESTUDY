@@ -1,23 +1,23 @@
-[2022-01-16 06:52:15,345] +++ R2 logfile ospf_config/connection_R2.txt +++
-[2022-01-16 06:52:15,345] +++ Unicon plugin ios +++
+[2022-01-16 16:17:32,187] +++ R2 logfile ospf_configuration/connection_R2.txt +++
+[2022-01-16 16:17:32,187] +++ Unicon plugin ios +++
 Warning: Permanently added '192.168.3.3' (RSA) to the list of known hosts.
 
-[2022-01-16 06:52:15,465] +++ connection to spawn: ssh -l cisco 192.168.3.3, id: 140149283883040 +++
-[2022-01-16 06:52:15,466] connection to R2
+[2022-01-16 16:17:32,319] +++ connection to spawn: ssh -l cisco 192.168.3.3, id: 140224801826944 +++
+[2022-01-16 16:17:32,319] connection to R2
 Password: 
 
 R2>
-[2022-01-16 06:52:15,782] +++ initializing handle +++
+[2022-01-16 16:17:32,634] +++ initializing handle +++
 enable
 Password: 
 R2#
-[2022-01-16 06:52:16,020] +++ R2: executing command 'term length 0' +++
+[2022-01-16 16:17:32,837] +++ R2: executing command 'term length 0' +++
 term length 0
 R2#
-[2022-01-16 06:52:16,262] +++ R2: executing command 'term width 0' +++
+[2022-01-16 16:17:33,077] +++ R2: executing command 'term width 0' +++
 term width 0
 R2#
-[2022-01-16 06:52:16,603] +++ R2: executing command 'show version' +++
+[2022-01-16 16:17:33,315] +++ R2: executing command 'show version' +++
 show version
 Cisco IOS Software, 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
 Technical Support: http://www.cisco.com/techsupport
@@ -27,7 +27,7 @@ Compiled Tue 17-Aug-10 12:08 by prod_rel_team
 ROM: ROMMON Emulation Microcode
 ROM: 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
 
-R2 uptime is 1 hour, 43 minutes
+R2 uptime is 10 minutes
 System returned to ROM by unknown reload cause - suspect boot_data[BOOT_COUNT] 0x0, BOOT_COUNT 0, BOOTDATA 19
 System image file is "tftp://255.255.255.255/unknown"
 

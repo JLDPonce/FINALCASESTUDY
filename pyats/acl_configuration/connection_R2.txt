@@ -1,23 +1,23 @@
-[2022-01-16 06:46:32,470] +++ R2 logfile show_running-configuration/connection_R2.txt +++
-[2022-01-16 06:46:32,470] +++ Unicon plugin ios +++
+[2022-01-16 16:16:43,779] +++ R2 logfile acl_configuration/connection_R2.txt +++
+[2022-01-16 16:16:43,779] +++ Unicon plugin ios +++
 Warning: Permanently added '192.168.3.3' (RSA) to the list of known hosts.
 
-[2022-01-16 06:46:32,601] +++ connection to spawn: ssh -l cisco 192.168.3.3, id: 140163364973536 +++
-[2022-01-16 06:46:32,602] connection to R2
+[2022-01-16 16:16:43,893] +++ connection to spawn: ssh -l cisco 192.168.3.3, id: 139822941133024 +++
+[2022-01-16 16:16:43,893] connection to R2
 Password: 
 
 R2>
-[2022-01-16 06:46:32,907] +++ initializing handle +++
+[2022-01-16 16:16:44,217] +++ initializing handle +++
 enable
 Password: 
 R2#
-[2022-01-16 06:46:33,114] +++ R2: executing command 'term length 0' +++
+[2022-01-16 16:16:44,424] +++ R2: executing command 'term length 0' +++
 term length 0
 R2#
-[2022-01-16 06:46:33,351] +++ R2: executing command 'term width 0' +++
+[2022-01-16 16:16:44,666] +++ R2: executing command 'term width 0' +++
 term width 0
 R2#
-[2022-01-16 06:46:33,583] +++ R2: executing command 'show version' +++
+[2022-01-16 16:16:44,886] +++ R2: executing command 'show version' +++
 show version
 Cisco IOS Software, 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
 Technical Support: http://www.cisco.com/techsupport
@@ -27,7 +27,7 @@ Compiled Tue 17-Aug-10 12:08 by prod_rel_team
 ROM: ROMMON Emulation Microcode
 ROM: 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
 
-R2 uptime is 1 hour, 38 minutes
+R2 uptime is 9 minutes
 System returned to ROM by unknown reload cause - suspect boot_data[BOOT_COUNT] 0x0, BOOT_COUNT 0, BOOTDATA 19
 System image file is "tftp://255.255.255.255/unknown"
 
@@ -58,18 +58,4 @@ DRAM configuration is 64 bits wide with parity enabled.
 
 Configuration register is 0x2102
 
-R2#
-[2022-01-16 06:46:33,857] +++ R2: executing command 'show ip interface brief' +++
-show ip interface brief
-Interface                  IP-Address      OK? Method Status                Protocol
-FastEthernet0/0            192.168.2.3     YES NVRAM  up                    up      
-Serial0/0                  192.168.3.3     YES NVRAM  up                    up      
-FastEthernet0/1            unassigned      YES NVRAM  administratively down down    
-Serial0/1                  unassigned      YES NVRAM  administratively down down    
-Serial0/2                  unassigned      YES NVRAM  administratively down down    
-FastEthernet1/0            unassigned      YES NVRAM  administratively down down    
-Serial2/0                  unassigned      YES NVRAM  administratively down down    
-Serial2/1                  unassigned      YES NVRAM  administratively down down    
-Serial2/2                  unassigned      YES NVRAM  administratively down down    
-Serial2/3                  unassigned      YES NVRAM  administratively down down    
 R2#

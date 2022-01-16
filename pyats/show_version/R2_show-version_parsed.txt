@@ -26,7 +26,7 @@
     "rom": "3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)",
     "rtr_type": "3725",
     "system_image": "tftp://255.255.255.255/unknown",
-    "uptime": "1 hour, 34 minutes",
+    "uptime": "7 minutes",
     "version": "12.4(15)T14",
     "version_short": "12.4"
   }

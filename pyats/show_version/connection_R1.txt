@@ -1,23 +1,23 @@
-[2022-01-16 06:42:31,569] +++ R1 logfile show_version/connection_R1.txt +++
-[2022-01-16 06:42:31,569] +++ Unicon plugin ios +++
+[2022-01-16 16:14:47,103] +++ R1 logfile show_version/connection_R1.txt +++
+[2022-01-16 16:14:47,103] +++ Unicon plugin ios +++
 Warning: Permanently added '192.168.3.2' (RSA) to the list of known hosts.
 
-[2022-01-16 06:42:31,702] +++ connection to spawn: ssh -l cisco 192.168.3.2, id: 139765897777552 +++
-[2022-01-16 06:42:31,702] connection to R1
+[2022-01-16 16:14:47,244] +++ connection to spawn: ssh -l cisco 192.168.3.2, id: 139956879524144 +++
+[2022-01-16 16:14:47,244] connection to R1
 Password: 
 
 R1>
-[2022-01-16 06:42:32,002] +++ initializing handle +++
+[2022-01-16 16:14:47,561] +++ initializing handle +++
 enable
 Password: 
 R1#
-[2022-01-16 06:42:32,197] +++ R1: executing command 'term length 0' +++
+[2022-01-16 16:14:47,770] +++ R1: executing command 'term length 0' +++
 term length 0
 R1#
-[2022-01-16 06:42:32,431] +++ R1: executing command 'term width 0' +++
+[2022-01-16 16:14:48,005] +++ R1: executing command 'term width 0' +++
 term width 0
 R1#
-[2022-01-16 06:42:32,674] +++ R1: executing command 'show version' +++
+[2022-01-16 16:14:48,247] +++ R1: executing command 'show version' +++
 show version
 Cisco IOS Software, 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
 Technical Support: http://www.cisco.com/techsupport
@@ -27,7 +27,7 @@ Compiled Tue 17-Aug-10 12:08 by prod_rel_team
 ROM: ROMMON Emulation Microcode
 ROM: 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
 
-R1 uptime is 1 hour, 36 minutes
+R1 uptime is 7 minutes
 System returned to ROM by unknown reload cause - suspect boot_data[BOOT_COUNT] 0x0, BOOT_COUNT 0, BOOTDATA 19
 System image file is "tftp://255.255.255.255/unknown"
 
@@ -59,7 +59,7 @@ DRAM configuration is 64 bits wide with parity enabled.
 Configuration register is 0x2102
 
 R1#
-[2022-01-16 06:42:33,951] +++ R1: executing command 'show version' +++
+[2022-01-16 16:14:49,759] +++ R1: executing command 'show version' +++
 show version
 Cisco IOS Software, 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
 Technical Support: http://www.cisco.com/techsupport
@@ -69,7 +69,7 @@ Compiled Tue 17-Aug-10 12:08 by prod_rel_team
 ROM: ROMMON Emulation Microcode
 ROM: 3700 Software (C3725-ADVENTERPRISEK9-M), Version 12.4(15)T14, RELEASE SOFTWARE (fc2)
 
-R1 uptime is 1 hour, 36 minutes
+R1 uptime is 7 minutes
 System returned to ROM by unknown reload cause - suspect boot_data[BOOT_COUNT] 0x0, BOOT_COUNT 0, BOOTDATA 19
 System image file is "tftp://255.255.255.255/unknown"
 
