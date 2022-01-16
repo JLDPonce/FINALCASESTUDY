@@ -1,5 +1,5 @@
 ---
-- name: Configure ACL on R2
+- name: Configure ACL R2
   hosts: R2
   gather_facts: false
   connection: local
