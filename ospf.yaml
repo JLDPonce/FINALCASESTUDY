@@ -1,5 +1,5 @@
 ---
-- name: Configure OSPF on R1
+- name: Configure OSPF R1
   hosts: R1
   gather_facts: false
   connection: local
@@ -10,7 +10,7 @@
       password: cisco123
 
   tasks:
-    - name: Enable OSPF on R1
+    - name: Enable OSPF R1
       ios_config:
         provider: "{{ cli }}"
         authorize: yes
@@ -21,7 +21,7 @@
       register: print_output
     - debug: var=print_output
 
-- name: Configure OSPF on R2
+- name: Configure OSPF R2
   hosts: R2
   gather_facts: false
   connection: local
@@ -32,7 +32,7 @@
       password: cisco123
 
   tasks:
-    - name: Enable OSPF on R2
+    - name: Enable OSPF R2
       ios_config:
         provider: "{{ cli }}"
         authorize: yes
